@@ -1,0 +1,31 @@
+body {
+    font-family: 'Raleway';
+    background: #ff75b4;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+canvas#weatherIcon {
+    width: 220px;
+}
+
+.container {
+    display: none;
+    margin: 50px auto;
+}
+
+.container .location {
+    font-size: 1.3em;
+    padding-bottom: 20px;
+}
+
+.container .summary {
+    padding: 5px 0;
+}
+
+.container .units {
+    cursor: pointer;
+    color: skyblue;
+}
