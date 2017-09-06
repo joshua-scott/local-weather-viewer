@@ -1,6 +1,10 @@
+html {
+    height: 100vh;
+}
+
 body {
     font-family: 'Raleway';
-    background: #ff75b4;
+    background: linear-gradient(135deg, #7c1599 0%, #921099 48%, #7e4ae8 100%);
     color: #fff;
     text-align: center;
     font-weight: bold;
