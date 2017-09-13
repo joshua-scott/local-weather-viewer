@@ -39,7 +39,7 @@ function getWeather(endpoint) {
             skycons.add('weatherIcon', weather.currently.icon);
             skycons.play();
 
-            doc.container.style.display = 'block';
+            doc.container.classList.add('show');
         });
 }
 

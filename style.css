@@ -12,24 +12,30 @@ body {
 }
 
 canvas#weatherIcon {
-    width: 220px;
+    width: 300px;
+    padding: 30px;
 }
 
 .container {
     display: none;
-    margin: 50px auto;
+    margin: 20vh auto;
 }
 
-.container .location {
-    font-size: 1.3em;
-    padding-bottom: 20px;
+.show {
+    display: block;
 }
 
-.container .summary {
-    padding: 5px 0;
+.location {
+    font-size: 2.4em;
 }
 
-.container .units {
+.summary,
+.temperature {
+    font-size: 1.5em;
+    padding-bottom: 10px;
+}
+
+.units {
     cursor: pointer;
     color: skyblue;
 }
